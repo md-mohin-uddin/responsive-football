@@ -6,6 +6,7 @@ body{
     font-family: 'Poppins', sans-serif;
     background-color: #f1eeee;
 }
+/* Header Part  */
 .container{
     background-color: #2D25A0;
     display: flex;
@@ -36,6 +37,9 @@ a{
 .half-width img{
     width: 80%;
 }
+
+/* Player Part */
+
 .players{
     padding-top:50px;
     display: grid;
@@ -59,6 +63,7 @@ a{
     width: 300px;
     height:256px;
 }
+/* Highlight Part  */
 p,h2{
     text-align:left;
     padding:0 15px;
@@ -87,3 +92,55 @@ p,h2{
 .highlight img{
     width:100%;
 }
+/* Gallary Photo */
+.photos h1{
+    color: #2D25A0;
+}
+.photo{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: space-evenly;
+    justify-items: center;
+    
+}
+.photo img{
+    width: 300px;
+    margin-top:50px;
+}
+/* About us section */
+
+.about-us{
+    display: flex;
+    margin-bottom: 100px;
+}
+.about-us h1{
+    color: #2D25A0;
+}
+#contact{
+    margin: 0px;
+}
+/* Footer area */
+
+footer{
+    text-align: center;
+    margin-top:100px;
+    
+}
+.footer img{
+    width: 30%;
+    margin-bottom: 20px;
+}
+.fab{
+    font-size: 20px;
+    padding:10px;
+    margin: 10px;
+    border: 1px solid gainsboro;
+    border-radius: 50%;
+    background-color: gainsboro;
+    color: gray;
+}
+.footer p{
+    text-align: center;
+    font-size: 20px;
+}
+
